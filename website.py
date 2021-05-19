@@ -52,7 +52,7 @@ while True:
             # create mail
             senderEmail = "sendermail"
             senderEmailPassword = "yourPassword"
-            toEmail = ""
+            toEmail = "toemail"
             msg = MIMEMultipart()
             msg['From'] = senderEmail
             msg['To'] = toEmail
